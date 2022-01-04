@@ -99,14 +99,18 @@ const menu = [
         category: "Web_Development",
         desc: `                    
         <h3>
-            I have programmed my own website using HTML, SCSS and JavaScript. I made sure it is responsive to all different screen sizes.
-            I also made sure it is easy to navigate through it no matter which device you are on. 
+            After watching some freeCodeCamp and Udemy tutorials and imitating some of their landing webpages, I got the inspiration
+            to create my own website and design it myself. So, I started out with Figma to visualize the design and to figure out 
+            how to place all the elements together. After that, I used HTML, SCSS and JavaScript to bring my design to life. 
+            I made sure it is responsive to all different screen sizes. I also made sure it is easy to navigate through it no 
+            matter which device you are on. I used Gihub Webpages, afterwards to publish my website by commiting and pushing the code from VS Code 
+            directly to Github. 
         </h3>
         <h3>
             As you can see by now since you are on the website, it has so much to tell you about who I am which was my goal for this project.   
         </h3>
         <h3> 
-        Currently, I am learning more about JavaScript and React and applying what I learn to improve on this website everytime I get the chance to.
+            Currently, I am learning more about JavaScript and React and applying what I learn to improve on this website everytime I get the chance to.
         </h3>
         <h3>
             To see more on how I programmed it, you can click on <span>'Read More'</span> below. 
