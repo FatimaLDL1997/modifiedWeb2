@@ -99,9 +99,13 @@ const menu = [
         category: "Web_Development",
         desc: `                    
         <h3>
-            After watching some freeCodeCamp and Udemy tutorials and imitating some of their landing webpages, I got the inspiration
-            to create my own website and design it myself. So, I started out with Figma to visualize the design and to figure out 
-            how to place all the elements together. After that, I used HTML, SCSS and JavaScript to bring my design to life. 
+            It all started with watching some freeCodeCamp and Udemy tutorials and imitating some of their landing webpages.
+            I then got the inspiration to create my own website and to design it myself as well. 
+            
+        </h3>
+        <h3> 
+            I started out with Figma to visualize the design and to figure out how to place all the elements together. 
+            After that, I used HTML, SCSS and JavaScript to bring my design to life. 
             I made sure it is responsive to all different screen sizes. I also made sure it is easy to navigate through it no 
             matter which device you are on. I used Gihub Webpages, afterwards to publish my website by commiting and pushing the code from VS Code 
             directly to Github. 
