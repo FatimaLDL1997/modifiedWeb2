@@ -1,0 +1,120 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+
+  h1{
+    margin: 0;
+
+  }
+  h3 {
+    margin: 0;
+  }
+}
+
+// Flexbox
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+  &-jc-sa {
+    justify-content: space-around;
+  }
+}
+
+//remove underline from all a elements 
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+.button{
+  border: none;
+  border-radius: 100%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 25px;
+  font-family: ruda;
+  
+  cursor: pointer;
+  box-shadow: -12px 12px 23px rgba(0, 0, 0, 0.25);
+
+  display: block;
+  margin: auto; 
+  margin-bottom: 25px;//between each button
+
+  
+
+  &:hover {
+    color: $black;
+    font-weight:bolder;
+
+    &::before {
+      opacity: 1;
+    }
+  }
+}
+
+// Visibility
+.hide-for-mobile {
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @include breakpoint-up(large) {
+    display: none;
+  }
+}
+body {
+              
+  &.noscroll {
+    overflow: hidden;
+  }
+}
+.hide-for-tablet{
+  @include breakpoint-up(small) {
+    display: none;
+  }
+
+  @include breakpoint-down(large){
+    display: none;
+  }
+}
+.container1 {
+  text-align: justify;
+  padding: 24px;  
+
+  @include breakpoint-down(medium){
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+  @include breakpoint-down(middle){
+    padding: 24px;
+  }
+}
